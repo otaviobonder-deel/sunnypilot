@@ -269,7 +269,7 @@ class CAR(Platforms):
   TAOS_MK1 = VolkswagenMQBPlatformConfig(
     "VOLKSWAGEN TAOS 1ST GEN",  # Chassis B2
     VWCarInfo("Volkswagen Taos 2022-23"),
-    specs=VolkswagenCarSpecs(mass=1498, wheelbase=2.69),
+    specs=VolkswagenCarSpecs(mass=1498, wheelbase=2.69, minSteerSpeed=2*CV.KPH_TO_MS),
   )
   TCROSS_MK1 = VolkswagenMQBPlatformConfig(
     "VOLKSWAGEN T-CROSS 1ST GEN",  # Chassis C1
